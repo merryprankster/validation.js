@@ -3,7 +3,7 @@
 
 $(function() {
   $.fn.changes = function() {
-    return eventSourceFor(this, ["keyup", "blur"])
+    return eventSourceFor(this, ["keyup", "blur", "change"])
   }
 
   $.fn.clicks = function() {
